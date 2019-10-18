@@ -1,0 +1,6 @@
+// Electrical devices have different power (interface) requirements.
+-	Voltage
+-	Socket/plug type
+//  We cannot modify our gadgets to support every possible interface.
+// We use a special device (an adapter) to give us the interface we require from the interface we have. 
+// Adapter: A construct which adapts an existing interface X to conform to the required interface Y.
