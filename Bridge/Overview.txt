@@ -1,0 +1,13 @@
+// Connecting components through abstractions.
+// Prevents 'Cartesian product' complexity explosion.
+- Base class threadScheduler 
+- Can be preemptive or cooperative.
+- Can run on windows or Linux.
+// End up with a 2X2 scenario: WindowsPTS, UnixPTS, WindowsCTS, UnixCTS
+// Bridge pattern avoids the entity explosion.
+// Bridge: A mechanism that decouples an interface (hierarchy) from an implementation (hierarchy).
+
+
+// Decouple abstraction from implementation.
+// Both can exist as hierarchies.
+// Bridge can be essentially a strong form of encapsulation.
