@@ -1,0 +1,10 @@
+// Providing a simple, easy to understand/user interface over a large and sophisticated body of code.
+
+// Balancing complexity and presentation/usability.
+-- Typical home: 
+* Many substances (electrical, sanitation)
+* Complex internal structure (e.g., floor layers)
+* End user is not exposed to internals
+// Same with software1
+* Many systems working to provide flexibly, but ...
+* API consumers want it to just work!
