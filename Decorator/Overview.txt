@@ -1,0 +1,15 @@
+// We want to take an existing object and we want to give additional functionality to it. Facilitates the addition of behaviors to
+// individual objects.
+// Do not want to rewrite or alter existing code (maybe we do not have the source code) (OCP-Open Close Principle).
+// Want to keep new functionality separate (SRP-Single Responsibility Principle)
+// Need to be able to interact with existing structures.
+// Two options: 
+  * Aggregate the decorated object.
+  * Inherit from the decorated object.
+
+  // A dynamic decorator keeps the reference to the decorated object(s).
+  -- ColoredShape{Square{}}
+  // A static decorator uses mixing inheritance
+  -- ColoredShape<square>
+  // Both approaches allow limitless composition
+  -- TransparentShape<ColoredShape<Circle>>
