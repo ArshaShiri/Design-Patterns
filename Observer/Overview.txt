@@ -1,0 +1,17 @@
+// Observer: Getting notification when things happen
+// We need to be informed when certain things happen.
+  * Object's field changes
+  * Object does something
+  * Some external event happens
+// We want to listen to events and notified when they occur
+// Terminology: 
+  * Event and subscriber
+  * Signal and slot (Boost, Qt, etc.)
+// An observer is an object that wishes to be informed about events happening in the system. The entity generating the events is an observable.
+// Summary: 
+// Two participants: 
+  * Observable provides a way of subscribing to an event (signal)
+  * Observer performs the subscription
+// Observable implementation is always intrusive (observer does not need to be)
+// Multithreaded/reentrant use can cause issues
+// Ready-made implementations of observer are available.
